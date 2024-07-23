@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Animais Fantásticos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div class="grid-container">
+    <nav class="menu" data-menu="suave">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
+        <li><a href="#animais">Animais</a></li>
+        <li data-dropdown>
+          <a href="sobre.html">Sobre</a>
+          <ul class="dropdown-menu">
+            <li><a href="empresa.html">A Empresa</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="socios.html">Sócios</a></li>
+            <li><a href="investidores.html">Investidores</a></li>
+          </ul>
+        </li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a data-modal="abrir" href="login.html">Login →</a></li>
+      </ul>
+    </nav>
+    <section class="grid-section animais" data-anime="scroll" id="animais">
+      <h1 class="titulo">Animais Fantásticos</h1>
+      <ul class="animais-lista" data-tab="menu">
+        <li>
+          <img src="img/imagem1.jpg">
+        </li>
+        <li>
+          <img src="img/imagem2.jpg">
+        </li>
+        <li>
+          <img src="img/imagem3.jpg">
+        </li>
+        <li>
+          <img src="img/imagem4.jpg">
+        </li>
+        <li>
+          <img src="img/imagem5.jpg">
+        </li>
+        <li>
+          <img src="img/imagem6.jpg">
+        </li>
+      </ul>
+      <div class="animais-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>Raposa</h2>
+          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+        </section>
+
+        <section data-anime="show-right">
+          <h2>Esquilo</h2>
+          <p>Os esquilos são considerados um dos maiores roedores do mundo. Eles podem medir até 45 centímetros, sendo grande parte desse comprimento devido à sua longa cauda.</p>
+          <p>Preferem florestas secas e sombreadas, formadas por árvores elevadas e seculares. Constroem seus ninhos em ocos de árvores, forquilhas ou até mesmo em ninhos de aves abandonados.</p>
+          <p>São ágeis e vivos. Movem-se incessantemente pelas árvores, saltando de ramo em ramo. Escalam troncos lisos com facilidade, alcançando o topo das árvores e cobrindo distâncias de até quatro ou cinco metros no ar.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Urso</h2>
+          <p>Os ursos têm o corpo coberto por pelos longos, grossos e ásperos. A coloração varia entre as espécies, podendo ser marrons, pretos, brancos ou até mesmo malhados.</p>
+          <p>Alguns ursos, como o urso-de-óculos e o panda-gigante, apresentam padrões de coloração únicos, como manchas brancas em torno dos olhos ou um padrão preto e branco.</p>
+          <p>Os ursos são excelentes nadadores e podem ser encontrados em diversos ambientes, desde regiões de florestas até regiões polares.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Lobo</h2>
+          <p>A grande maioria dos lobos costuma medir entre 1 e 2 metros de comprimento do focinho à cauda, pesando entre 30 e 60 quilogramas e tendo uma altura de aproximadamente 80 centímetros do solo até a cernelha do animal.</p>
+          <p>O olhar peculiar dos lobos, com predominância de colorações marrons, amareladas ou alaranjadas, também contribui para sua aparência impressionante.</p>
+          <p>Suas garras estão sempre expostas, permitindo que alcancem velocidades de até 70 km/h durante a caça.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Macaco</h2>
+          <p>Os macacos são primatas, mas nem todo primata é um macaco. Eles são divididos em duas subordens: Strepsirrhini e Haplorrhini</p>
+          <p>Para ser considerado um macaco, o animal precisa ter cauda (rabo). Portanto, gorilas, orangotangos, chipanzés e bonobos não são macacos, mas sim Hominoides.</p>
+          <p>Os verdadeiros macacos são os primatas de cauda do Novo Mundo (Américas) e Velho Mundo (Ásia, África, Europa, etc.).</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Leão</h2>
+          <p>A maior parte dos leões que vive na natureza é encontrada nas savanas da África e em outras regiões semi-desérticas.</p>
+          <p>Os leões passam a maior parte do tempo descansando e economizando energia. As atividades de caça ocorrem apenas durante cerca de 5 horas do dia, geralmente ao entardecer.</p>
+          <p>São excelentes predadores e ocupam o topo das cadeias alimentares.</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="grid-section faq" data-anime="scroll" id="faq">
+      <h1 class="titulo">FAQ</h1>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Qual a idade dos animais?</dt>
+        <dd>A expectativa de vida pode variar de acordo com fatores como alimentação, ambiente, saúde e presença de predadores.</dd>
+        <dt>Eles são fantásticos?</dt>
+        <dd>Sim, esses animais são absolutamente fantásticos! Cada um deles desempenha um papel vital nos ecossistemas em que vivem, e sua diversidade e adaptações são verdadeiramente fascinantes.</dd>
+        <dt>Qual a diferença?</dt>
+        <dd>Cada animal possui respectivos habitats, alimentação, comportamento, etc.</dd>
+        <dt>Como proteger?</dt>
+        <dd>Cada um de nós pode contribuir para a proteção desses animais, respeitando seu espaço e promovendo a coexistência harmoniosa com a natureza.</dd>
+      </dl>
+    </section>
+    <section class="grid-section numeros" data-anime="scroll">
+      <h1 class="titulo">Números</h1>
+      <div class="numeros-grid">
+      </div>
+    </section>
+    <section class=" grid-section contato js-scroll" <section class="grid-section contato" data-anime="scroll" id="contato">
+      <h1 class="titulo">Contato</h1>
+      <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
+        <img src="img/mapa.png">
+      </div>
+      <ul class="dados">
+        <li>contato@origamid.com</li>
+        <li>+55 (21) 9999-9999</li>
+        <li>Rua do Conde, nº 21</li>
+        <li>Rio de Janeiro - RJ</li>
+        <li data-semana="1,2,3,4,5" data-horario="8,18"> Seg à sex das 8h às 18h</li>
+        <li>Doe <span class="btc-preco">1</span> Bitcoin para nos ajudar</li>
+      </ul>
+    </section>
+
+    <footer class="copy">
+      <p>Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
+  <script src="main.js/main.js"></script>
+</body>
+
+</html>
